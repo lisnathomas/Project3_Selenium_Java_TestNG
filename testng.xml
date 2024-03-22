@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<groups>
+		<run>
+	<exclude name="exclude"/>
+	</run>
+	</groups>
+    <test name="AllTests">
+        <classes>
+            <!--<class name="com.zafin.interview.APITest"/> -->
+            <class name="com.zafin,interviewselenium.TestClass1" />
+            <class name="com.zafin,interviewselenium.TestClass2" />
+            <!-- Add more test classes if needed -->
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-25T22:43:21 EST" name="Default suite" finished-at="2024-02-25T22:44:27 EST" duration-ms="66006">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T22:43:21 EST" name="Default test" finished-at="2024-02-25T22:44:27 EST" duration-ms="66006">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:21 EST" name="setup" finished-at="2024-02-25T22:43:23 EST" duration-ms="1712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:23 EST" name="testLoginWithInvalidCredentials" data-provider="loginWithInvalidCredentials" finished-at="2024-02-25T22:43:24 EST" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[un-standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:24 EST" name="teardown" finished-at="2024-02-25T22:43:24 EST" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:24 EST" name="setup" finished-at="2024-02-25T22:43:25 EST" duration-ms="1362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:25 EST" name="testLoginWithInvalidCredentials" data-provider="loginWithInvalidCredentials" finished-at="2024-02-25T22:43:26 EST" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_saucess1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:26 EST" name="teardown" finished-at="2024-02-25T22:43:26 EST" duration-ms="192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:26 EST" name="setup" finished-at="2024-02-25T22:43:27 EST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:27 EST" name="testLoginWithInvalidCredentials" data-provider="loginWithInvalidCredentials" finished-at="2024-02-25T22:43:27 EST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:27 EST" name="teardown" finished-at="2024-02-25T22:43:27 EST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:27 EST" name="setup" finished-at="2024-02-25T22:43:29 EST" duration-ms="1165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginWithInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:29 EST" name="testLoginWithInvalidCredentials" data-provider="loginWithInvalidCredentials" finished-at="2024-02-25T22:43:29 EST" duration-ms="357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:29 EST" name="teardown" finished-at="2024-02-25T22:43:29 EST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:29 EST" name="setup" finished-at="2024-02-25T22:43:31 EST" duration-ms="2034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:31 EST" name="testSuccessfulLogin" data-provider="successfulLogin" finished-at="2024-02-25T22:43:34 EST" duration-ms="3084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:34 EST" name="teardown" finished-at="2024-02-25T22:43:35 EST" duration-ms="931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:35 EST" name="setup" finished-at="2024-02-25T22:43:41 EST" duration-ms="6338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:41 EST" name="testSuccessfulLogin" data-provider="successfulLogin" finished-at="2024-02-25T22:43:44 EST" duration-ms="2891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:44 EST" name="teardown" finished-at="2024-02-25T22:43:45 EST" duration-ms="940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:45 EST" name="setup" finished-at="2024-02-25T22:43:48 EST" duration-ms="2741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:48 EST" name="testSuccessfulLogin" data-provider="successfulLogin" finished-at="2024-02-25T22:43:48 EST" duration-ms="371" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:48 EST" name="teardown" finished-at="2024-02-25T22:43:49 EST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:49 EST" name="setup" finished-at="2024-02-25T22:43:50 EST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:50 EST" name="testSuccessfulLogin" data-provider="successfulLogin" finished-at="2024-02-25T22:43:55 EST" duration-ms="5502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:55 EST" name="teardown" finished-at="2024-02-25T22:43:55 EST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:55 EST" name="setup" finished-at="2024-02-25T22:43:56 EST" duration-ms="1107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:56 EST" name="testSuccessfulLogin" data-provider="successfulLogin" finished-at="2024-02-25T22:43:57 EST" duration-ms="396" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[error_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:57 EST" name="teardown" finished-at="2024-02-25T22:43:57 EST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:57 EST" name="setup" finished-at="2024-02-25T22:43:58 EST" duration-ms="1210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSuccessfulLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:58 EST" name="testSuccessfulLogin" data-provider="successfulLogin" finished-at="2024-02-25T22:43:59 EST" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[visual_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.LoginTest@6b6776cb]" started-at="2024-02-25T22:43:59 EST" name="teardown" finished-at="2024-02-25T22:43:59 EST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.InventoryTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:43:59 EST" name="setup" finished-at="2024-02-25T22:44:00 EST" duration-ms="1209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIfBothItemsAreAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:00 EST" name="testIfBothItemsAreAddedToCart" data-provider="successfulLogin" finished-at="2024-02-25T22:44:01 EST" duration-ms="1038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfBothItemsAreAddedToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:01 EST" name="teardown" finished-at="2024-02-25T22:44:01 EST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:01 EST" name="setup" finished-at="2024-02-25T22:44:02 EST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIfUserIsRedirectedToInventoryPage(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:02 EST" name="testIfUserIsRedirectedToInventoryPage" data-provider="successfulLogin" finished-at="2024-02-25T22:44:03 EST" duration-ms="389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfUserIsRedirectedToInventoryPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:03 EST" name="teardown" finished-at="2024-02-25T22:44:03 EST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:03 EST" name="setup" finished-at="2024-02-25T22:44:04 EST" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSortByPriceLowToHigh(java.lang.String,java.lang.String)[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:04 EST" name="testSortByPriceLowToHigh" data-provider="successfulLogin" finished-at="2024-02-25T22:44:05 EST" duration-ms="629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSortByPriceLowToHigh -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.InventoryTest@61eaec38]" started-at="2024-02-25T22:44:05 EST" name="teardown" finished-at="2024-02-25T22:44:05 EST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.InventoryTest -->
+      <class name="tests.CheckoutStepOneTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:05 EST" name="setup" finished-at="2024-02-25T22:44:06 EST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkoutInformationSuccessful(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:06 EST" name="checkoutInformationSuccessful" data-provider="successfulInformation" finished-at="2024-02-25T22:44:08 EST" duration-ms="1500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testfirstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testlastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M1L3K1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutInformationSuccessful -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:08 EST" name="teardown" finished-at="2024-02-25T22:44:08 EST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:08 EST" name="setup" finished-at="2024-02-25T22:44:09 EST" duration-ms="1266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFieldsInCheckoutPageStepOne(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:09 EST" name="validateFieldsInCheckoutPageStepOne" data-provider="details" finished-at="2024-02-25T22:44:10 EST" duration-ms="1400" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testlastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M1L3K1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error: First Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldsInCheckoutPageStepOne -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:10 EST" name="teardown" finished-at="2024-02-25T22:44:11 EST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:11 EST" name="setup" finished-at="2024-02-25T22:44:12 EST" duration-ms="1233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFieldsInCheckoutPageStepOne(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:12 EST" name="validateFieldsInCheckoutPageStepOne" data-provider="details" finished-at="2024-02-25T22:44:13 EST" duration-ms="1380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testfirstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M1L3K1]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error: Last Name is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldsInCheckoutPageStepOne -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:13 EST" name="teardown" finished-at="2024-02-25T22:44:13 EST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:13 EST" name="setup" finished-at="2024-02-25T22:44:15 EST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateFieldsInCheckoutPageStepOne(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:15 EST" name="validateFieldsInCheckoutPageStepOne" data-provider="details" finished-at="2024-02-25T22:44:16 EST" duration-ms="1447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testfirstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testlastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Error: Postal Code is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFieldsInCheckoutPageStepOne -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepOneTest@125290e5]" started-at="2024-02-25T22:44:16 EST" name="teardown" finished-at="2024-02-25T22:44:16 EST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CheckoutStepOneTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@7ef27d7f]" started-at="2024-02-25T22:44:16 EST" name="setup" finished-at="2024-02-25T22:44:17 EST" duration-ms="1195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testIfRightProductsAddedToCart(java.lang.String,java.lang.String)[pri:0, instance:tests.CartTest@7ef27d7f]" started-at="2024-02-25T22:44:17 EST" name="testIfRightProductsAddedToCart" data-provider="successfulLogin" finished-at="2024-02-25T22:44:18 EST" duration-ms="962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIfRightProductsAddedToCart -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CartTest@7ef27d7f]" started-at="2024-02-25T22:44:18 EST" name="teardown" finished-at="2024-02-25T22:44:19 EST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CartTest -->
+      <class name="tests.CheckoutStepTwoTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:19 EST" name="setup" finished-at="2024-02-25T22:44:20 EST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkIfOrderPlaced(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:20 EST" name="checkIfOrderPlaced" data-provider="successfulInformation" finished-at="2024-02-25T22:44:21 EST" duration-ms="1478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testfirstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testlastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M1L3K1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfOrderPlaced -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:21 EST" name="teardown" finished-at="2024-02-25T22:44:21 EST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:21 EST" name="setup" finished-at="2024-02-25T22:44:23 EST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkIfPriceAndPaymentMatchesExpectedValueAfterCheckout(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:23 EST" name="checkIfPriceAndPaymentMatchesExpectedValueAfterCheckout" data-provider="successfulInformation" finished-at="2024-02-25T22:44:24 EST" duration-ms="1443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testfirstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testlastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M1L3K1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfPriceAndPaymentMatchesExpectedValueAfterCheckout -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:24 EST" name="teardown" finished-at="2024-02-25T22:44:24 EST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:24 EST" name="setup" finished-at="2024-02-25T22:44:26 EST" duration-ms="1220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkIfUserLogoutAfterPlacingOrder(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:26 EST" name="checkIfUserLogoutAfterPlacingOrder" data-provider="successfulInformation" finished-at="2024-02-25T22:44:27 EST" duration-ms="1773" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testfirstname]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[testlastname]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[M1L3K1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIfUserLogoutAfterPlacingOrder -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.CheckoutStepTwoTest@490caf5f]" started-at="2024-02-25T22:44:27 EST" name="teardown" finished-at="2024-02-25T22:44:27 EST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.CheckoutStepTwoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

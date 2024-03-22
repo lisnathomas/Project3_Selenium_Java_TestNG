@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-25T17:06:21 EST" name="Surefire suite" finished-at="2024-02-25T17:06:23 EST" duration-ms="2624">
+    <groups>
+    </groups>
+    <test started-at="2024-02-25T17:06:21 EST" name="Surefire test" finished-at="2024-02-25T17:06:23 EST" duration-ms="2624">
+      <class name="com.zafin.interviewselenium.SampleTest">
+        <test-method is-config="true" signature="testOpenUrl()[pri:0, instance:com.zafin.interviewselenium.SampleTest@165b2f7f]" started-at="2024-02-25T17:06:21 EST" name="testOpenUrl" finished-at="2024-02-25T17:06:21 EST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenUrl -->
+        <test-method signature="enterDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.zafin.interviewselenium.SampleTest@165b2f7f]" started-at="2024-02-25T17:06:21 EST" name="enterDetails" data-provider="credentials" finished-at="2024-02-25T17:06:23 EST" duration-ms="1833" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[DEF]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.zafin.interviewselenium.SampleTest@165b2f7f]" started-at="2024-02-25T17:06:23 EST" name="tearDown" finished-at="2024-02-25T17:06:23 EST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zafin.interviewselenium.SampleTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
